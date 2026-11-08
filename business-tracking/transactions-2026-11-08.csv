@@ -1,0 +1,51 @@
+transaction_id,type,date,heure,client,email,nouveau_client,montant,devise,offre,contrat_total_estime,plan_echelonnement
+F565,Facture,2026-11-07,10:00,Olivier Barbosa,olivier.barbosa@gmail.com,,290.00,EUR,VEGINSHAPE 12 mois,3490,11x
+F564,Facture,2026-11-06,16:46,Emir Belkahia,emir.belkahia@gmail.com,oui,300.00,EUR,VEGINSHAPE 12 mois,3600,12x
+F563,Facture,2026-11-06,07:36,Ketura Baptiste,srikalia.beka@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F562,Facture,2026-11-05,10:10,Severine Bassahon,severine.bassahon@yahoo.fr,oui,300.00,EUR,VEGINSHAPE,3000,10x
+F561,Facture,2026-11-05,09:38,Thao Mucci,thaomucci@gmail.com,,296.00,EUR,VEGINSHAPE,2960,10x
+F560,Facture,2026-11-04,15:05,Sara Enggist,sara.gargate@gmail.com,oui,39.00,CHF,ebook 30 recettes,39,one-shot
+F559,Facture,2026-11-04,12:21,Sebastien Ceraulo,sebastien.ceraulo@hotmail.fr,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F558,Facture,2026-11-04,07:49,Christy Nohra,christy.c.nohra@gmail.com,,388.00,EUR,VEGINSHAPE 12 mois,3102,8x
+F557,Facture,2026-10-31,11:57,Nathan Bruyneel,bruyneelnathan@hotmail.com,,437.00,EUR,VEGINSHAPE 12 mois,3490,7x
+F556,Facture,2026-10-25,12:15,Marie-helene Quemon,hello.973.mh@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F555,Facture,2026-10-23,21:37,Jeanne Ysnel,jeanne.ysnel@hotmail.fr,,116.00,EUR,VEGINSHAPE,696,6x
+F554,Facture,2026-10-22,16:42,Geraldine Lollier,lolote.38@hotmail.com,,800.00,EUR,VEGINSHAPE,2400,3x
+F553,Facture,2026-10-20,20:41,Laura Barby,laurabarby@protonmail.com,,39.00,CHF,ebook 30 recettes,39,one-shot
+F552,Facture,2026-10-20,18:23,Ophelie Chretien,opheliechretien@orange.fr,,600.00,EUR,VEGINSHAPE 12 mois,3600,6x
+F551,Facture,2026-10-18,12:30,Lili Dufour,lili.dfour@gmail.com,,364.00,EUR,VEGINSHAPE,1092,3x
+F550,Facture,2026-10-17,18:46,Estelle Parisi,oliveiracardoso-estelle@hotmail.fr,,290.00,EUR,VEGINSHAPE 12 mois,3490,11x
+F549,Facture,2026-10-17,11:12,Sandie Tichane,sandie.tichane@ecomail.fr,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F548,Facture,2026-10-16,10:39,Martine Steininger Maillet,martine021974@hotmail.com,,360.00,CHF,VEGINSHAPE 12 mois,3600,10x
+R10,Remboursement,2026-10-16,10:39,Martine Steininger Maillet,martine021974@hotmail.com,,-360.00,CHF,VEGINSHAPE 12 mois (remb F548),-360,one-shot
+F547,Facture,2026-10-16,08:36,Ketura Baptiste,srikalia.beka@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F546,Facture,2026-10-15,10:31,Marie Schneider,schneider-p@wanadoo.fr,,250.00,EUR,Nutrition VEGINSHAPE,250,one-shot
+F545,Facture,2026-10-14,12:31,Christelle Pernette,pernette.christelle@gmail.com,,480.00,EUR,VEGINSHAPE,2400,5x
+F544,Facture,2026-10-11,19:50,Laura Delcourt,laura.rt@outlook.fr,,640.00,EUR,VEGINSHAPE,1920,3x
+F543,Facture,2026-10-10,18:13,Vanessa Guilbaud,v.guilbaud@outlook.fr,,437.00,EUR,VEGINSHAPE 12 mois,3053,7x
+F542,Facture,2026-10-09,21:07,Sebastian Salazar,sebastian.salazar.cl@gmail.com,,349.00,CHF,VEGINSHAPE 12 mois,3490,10x
+F541,Facture,2026-10-09,13:00,Ke Thien Nguyen,giakethien@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F540,Facture,2026-10-08,21:42,Antonin Satti,satti.antonin@gmail.com,,480.00,EUR,VEGINSHAPE,1920,4x
+F539,Facture,2026-10-07,10:59,Olivier Barbosa,olivier.barbosa@gmail.com,,290.00,EUR,VEGINSHAPE 12 mois,3490,11x
+F538,Facture,2026-10-06,10:59,Nathan Bruyneel,bruyneelnathan@hotmail.com,,437.00,EUR,VEGINSHAPE 12 mois,3490,7x
+F537,Facture,2026-10-04,13:20,Sebastien Ceraulo,sebastien.ceraulo@hotmail.fr,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F536,Facture,2026-10-01,11:38,Thao Mucci,thaomucci@gmail.com,,296.00,EUR,VEGINSHAPE,2960,10x
+F535,Facture,2026-09-29,17:42,Thomas Zuani,thomas.zuani@gmail.com,,407.00,EUR,VEGINSHAPE 12 mois,3490,7x
+F534,Facture,2026-09-25,13:14,Marie-helene Quemon,hello.973.mh@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F533,Facture,2026-09-24,01:53,Barbara Jurain,barbarajurain@gmail.com,,29.00,CHF,Plan alimentaire 1900 kcal,29,one-shot
+F532,Facture,2026-09-23,20:36,Jeanne Ysnel,jeanne.ysnel@hotmail.fr,,116.00,EUR,VEGINSHAPE,696,6x
+F531,Facture,2026-09-22,15:42,Geraldine Lollier,lolote.38@hotmail.com,,800.00,EUR,VEGINSHAPE,2400,3x
+F530,Facture,2026-09-20,18:22,Ophelie Chretien,opheliechretien@orange.fr,,600.00,EUR,VEGINSHAPE 12 mois,3600,6x
+F529,Facture,2026-09-20,07:31,Coralie Pavius,pavius.coralie@gmail.com,,29.00,CHF,Plan alimentaire 1900 kcal,29,one-shot
+F528,Facture,2026-09-19,00:38,Nelson Peixoto,nelson.peixoto93@gmail.com,,29.00,CHF,Plan alimentaire 2100 kcal,29,one-shot
+F527,Facture,2026-09-18,11:29,Lili Dufour,lili.dfour@gmail.com,,364.00,EUR,VEGINSHAPE,1092,3x
+F526,Facture,2026-09-18,09:32,Charline Debrie,cha.debrie@yahoo.fr,,400.00,EUR,VEGINSHAPE,2400,6x
+F525,Facture,2026-09-17,18:46,Estelle Parisi,oliveiracardoso-estelle@hotmail.fr,,290.00,EUR,VEGINSHAPE 12 mois,3490,11x
+F524,Facture,2026-09-17,11:12,Sandie Tichane,sandie.tichane@ecomail.fr,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x
+F523,Facture,2026-09-15,19:28,Catherine Donabedian,catherine.donabedian@yahoo.fr,,360.00,EUR,VEGINSHAPE,3600,10x
+R9,Remboursement,2026-09-15,19:28,Catherine Donabedian,catherine.donabedian@yahoo.fr,,-360.00,EUR,VEGINSHAPE (remb F523),-360,one-shot
+F522,Facture,2026-09-15,17:17,Marie Bourgogne,marie.bourgogne@bluewin.ch,,29.00,CHF,Plan alimentaire 1300 kcal,29,one-shot
+F521,Facture,2026-09-14,12:32,Christelle Pernette,pernette.christelle@gmail.com,,480.00,EUR,VEGINSHAPE,2400,5x
+F520,Facture,2026-09-13,13:13,Noa Ponsard,noa.ponsard@hotmail.com,,29.00,CHF,Plan alimentaire 2900 kcal,29,one-shot
+F519,Facture,2026-09-11,18:49,Laura Delcourt,laura.rt@outlook.fr,,640.00,EUR,VEGINSHAPE,1920,3x
+F518,Facture,2026-09-09,13:01,Ke Thien Nguyen,giakethien@gmail.com,,291.00,EUR,VEGINSHAPE 12 mois,3492,12x

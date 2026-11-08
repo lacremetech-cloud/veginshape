@@ -6,9 +6,9 @@
 
 ## Contexte
 
-- **Date de snapshot** : 2026-11-07
+- **Dernier snapshot** : 2026-11-08
 - **Date préavis Elio** : 2026-11-22
-- **Risque** : retrait progressif des accès (agenda, CRM, Calendly, etc.)
+- **Risque** : retrait progressif des accès (agenda, CRM, Calendly, facturation, etc.)
 - **Action** : capturer un maximum de données avant perte d'accès
 
 ---
@@ -17,68 +17,85 @@
 
 ### `agenda-calls-2026-11-07.csv`
 
-Export de l'agenda au 7 novembre 2026, couvrant la période **30 oct. 2026 → 10 janv. 2027**.
+Export de l'agenda au 7 novembre 2026, couvrant la période **30 oct. 2026 → 10 janv. 2027** (55 actions business : 29 R1, 13 R2, 1 R3, 1 relance, 11 calls groupe).
+
+### `transactions-2026-11-08.csv`
+
+Export des factures/remboursements au 8 novembre 2026, couvrant la période **9 sept. 2026 → 7 nov. 2026** (50 transactions : 48 factures, 2 remboursements).
 
 **Colonnes** :
-- `date`, `jour`, `heure_debut`, `heure_fin`
-- `type` : `R1-Consultation`, `R2` (follow-up), `R3`, `Call-Groupe`, `Relance`
-- `code_setter` : code setter/closer figurant dans le nom de l'event (I, V, H, GO, W, S)
-- `prospect_client` : nom
-- `date_lead` : date d'origine du lead (pour les R2/Relances)
-- `statut` : note de présence (ex. "Présence reconfirmée")
-- `notes`
-
-**Événements perso exclus** : anniversaire Jadore (31 oct.), Bowling La Brume (2 nov.), Déchèterie (7 nov.), "Go voir Anton'" (9 nov.), "Pas dispo" (2 nov.), "Call Saj" (12 nov. — à reclasser si business).
+- `transaction_id` (F### ou R##)
+- `type` (Facture / Remboursement)
+- `date`, `heure`
+- `client`, `email`, `nouveau_client`
+- `montant` (signé), `devise` (EUR/CHF)
+- `offre` (libellé facture)
+- `contrat_total_estime` (valeur totale du contrat, pas juste la mensualité)
+- `plan_echelonnement` (3x, 5x, 10x, 12x, one-shot)
 
 ---
 
-## Récapitulatif chiffré (snapshot 2026-11-07)
+## 📊 Récapitulatif chiffré
+
+### Agenda (snapshot 2026-11-07)
 
 | Type | Nombre |
 |---|---|
-| R1-Consultation (premier call) | 29 |
+| R1 Consultations | 29 |
 | R2 (follow-up / closing) | 13 |
 | R3 | 1 |
 | Relance | 1 |
 | Call groupe VEGINSHAPE™ | 11 |
 | **Total actions business** | **55** |
 
-### Répartition par code setter (R1-Consultations uniquement)
+**Répartition code setter (R1 uniquement)** : V=19, I=5, H=2, GO=1, W=1, S=1
 
-| Code | Nombre |
+### Transactions (snapshot 2026-11-08 — période 9 sept → 7 nov 2026)
+
+| Indicateur | Valeur |
 |---|---|
-| V | 19 |
-| I | 5 |
-| H | 2 |
-| GO | 1 |
-| W | 1 |
-| S | 1 |
+| Factures émises | 48 |
+| Remboursements | 2 |
+| Clients distincts | 33 |
+| Nouveaux clients (tag "Nouveau") | 3 (Emir Belkahia, Severine Bassahon, Sara Enggist) |
 
-> Les codes setter (I, V, H, GO, W, S) correspondent probablement aux initiales des setters/closers ayant booké le call. À confirmer et documenter pour justifier les commissions.
+**Cash-in encaissé sur la période :**
+
+| Devise | Encaissé | Remboursé | **Net** |
+|---|---:|---:|---:|
+| EUR | +14 858,00 € | −360,00 € | **+14 498,00 €** |
+| CHF | +932,00 CHF | −360,00 CHF | **+572,00 CHF** |
+
+**Contrat total (valeur contractuelle signée, hors doublons mensualités) :**
+
+| Devise | Contrat total |
+|---|---:|
+| EUR | **67 413,00 €** |
+| CHF | **7 313,00 CHF** |
+
+> ⚠️ **Base de commission à clarifier** : la commission se calcule-t-elle sur l'encaissement mensuel ou sur la valeur contractuelle totale ? La différence est **majeure** (x4-x5 selon les contrats 10-12x). À confirmer avant toute réclamation.
 
 ---
 
-## Prochaines étapes recommandées
+## 🚨 Prochaines étapes urgentes avant perte d'accès
 
-1. **Captures d'écran agenda** — faire des screenshots de Calendly / Google Calendar pour chaque semaine, à archiver dans `business-tracking/screenshots/`.
-2. **Export Calendly brut** — télécharger l'export CSV natif Calendly (plus de détails : source, UTM, email prospect) tant que l'accès est ouvert.
-3. **Export CRM** — récupérer la liste complète des leads/deals avec statut, montant, propriétaire (code setter).
-4. **Historique emails** — archiver les confirmations de booking et les emails de closing dans un dossier séparé.
-5. **Statistiques Meta Ads** — screenshots des campagnes et attribution (source du trafic).
-6. **Deals clôturés (signés)** — faire un fichier `deals-closed.csv` séparé avec montants, pour calcul de commission.
-7. **Commit Git** — une fois validé, committer ce dossier sur la branche `claude/quirky-feynman-dgGs0` pour avoir la trace horodatée Git (immutable).
+1. **Export Calendly natif** — l'accès est ouvert (compte Rayyan Indescale, timezone Europe/Berlin). À lancer via l'API pour récupérer tous les events avec emails prospects + source + UTM.
+2. **Historique complet des factures** — remonter avant F518 (sept. 2026) pour couvrir toute la période d'activité.
+3. **Deals/leads non signés** — exporter le pipeline CRM (prospects en cours, NRP, à relancer).
+4. **Screenshots horodatés** — Calendly, facturation, CRM — chaque page à archiver dans `screenshots/YYYY-MM-DD/`.
+5. **Attribution source** — pour chaque client, identifier la source (ads Meta, bouche-à-oreille, Insta, YouTube, etc.) pour justifier l'apport.
+6. **Historique Gmail** — confirmations de booking + emails de closing (preuves de closing côté agence).
+7. **Contrat / accord commission** — récupérer et archiver l'écrit (email, DocuSign, chat) qui formalise la rémunération due.
 
 ---
 
 ## Notes de parsing
 
-- "CONSULTATION VEGINSHAPE™ (X)" → typé `R1-Consultation`, lettre entre parenthèses → `code_setter`
-- "R2 [Nom] Lead [date]" → typé `R2`, date du lead extraite
-- "R3 avec [Nom]" → typé `R3`
-- "Relancer [Nom] Lead [date]" → typé `Relance`
-- Un conflit horaire noté sur Florian Despont 31 oct. (13:00) — reporté le 12 nov. (10:00)
-- Deux occurrences pour Florian Despont (31 oct. + 12 nov.) et Aurélie Nguyen (7 nov. R1 + 16 nov. R2)
+- Les montants mensuels (ex. 290€ pour un contrat 3490€ en 11x) apparaissent chaque mois ; la colonne `contrat_total_estime` donne la valeur totale.
+- Récurrences détectées : Olivier Barbosa (2x), Nathan Bruyneel (2x), Kétura Baptiste (2x), Sebastien Ceraulo (2x), Thao Mucci (2x), Marie-hélène Quemon (2x), Jeanne Ysnel (2x), Géraldine Lollier (2x), Ophélie Chretien (2x), Lili Dufour (2x), Estelle Parisi (2x), Sandie Tichané (2x), Christelle Pernette (2x), Laura Delcourt (2x), Ke Thien Nguyen (2x) — ce sont les mensualités des contrats échelonnés, pas des doublons.
+- Remboursement R10 (Martine Steininger) : même jour/heure que la facture F548 → facture annulée immédiatement (test ou erreur).
+- Remboursement R9 (Catherine Donabedian) : même jour/heure que F523 → idem.
 
 ---
 
-*Snapshot généré le 2026-11-07 à partir d'un copier-coller manuel de l'agenda. Pour une source de vérité fiable, compléter par des exports natifs (Calendly / CRM) dès que possible.*
+*Snapshots générés à partir de copier-collers manuels. Pour une source de vérité fiable, compléter par des exports natifs (Calendly / Stripe / Dougs / Qonto) dès que possible.*
