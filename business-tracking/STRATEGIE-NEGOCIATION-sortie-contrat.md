@@ -20,15 +20,42 @@ L'art. 5.1 dit : *"15 % du CA effectivement encaissé"*. Un contrat 12x signé l
 
 **Côté comptable Veginshape** : chaque mensualité qui tombe est un CA encaissé HT, donc une assiette à 15 %. Peu importe que ce soit après la sortie du Prestataire.
 
-### Q1b — Leads générés avant le 22/11 qui closent (contrat signé) après
+### Q1b — Tous les RDV (R1, R2, R3) bookés avant le 22/11 qui closent après
 
-**C'est le trou du contrat** — pas explicitement traité.
+**Position à faire valoir : tout CA issu d'un lead passé par le système d'acquisition Crème Tech avant le 22/11 est commissionné, quelle que soit la date de l'encaissement.**
 
-Lecture favorable Prestataire : le lead a été "généré par le canal", le close est la concrétisation du travail. Donc le CA est bien attribuable au Prestataire. L'encaissement a lieu après fin de contrat mais la génération de la vente se nourrit du funnel qu'il tourne encore.
+**Fondement contractuel direct — Art. 5.1 lu avec l'Art. 2** :
 
-Lecture favorable Client : "CA encaissé" = encaissement pendant la durée du contrat. Après le 22/11, le Prestataire est out, pas de commission.
+- Art. 5.1 : *"15 % du **CA généré par le Client**, tous canaux confondus"*
+- Art. 2 définit explicitement les Prestations du Prestataire, dont :
+  - (i) stratégie marketing
+  - (ii) campagnes publicitaires (**ads Meta**)
+  - (iii) contenu marketing (**scripts vidéos, scripts publicitaires — VSL, ads**)
+  - (iv) e-mailing marketing
+  - (v) gestion CRM, segmentation des leads, automation, **suivi des conversions**
+  - (vi) **structuration des parcours clients et funnels de conversion (pages d'inscription, VSL, webinaires, tunnels, automations)**
 
-**→ Action** : **il faut faire confirmer par écrit à Elio ta lecture avant qu'il ne réponde sous un angle qui l'arrange.** Draft de message plus bas.
+**Donc le "canal" visé par l'art. 5.1, ce sont exactement les Prestations de l'art. 2.** Un lead qui :
+1. a vu une ads Meta (livrable Crème Tech),
+2. a atterri sur la landing + VSL (livrables Crème Tech),
+3. est passé dans les automations Systeme.io (livrable Crème Tech),
+4. a booké un R1 via le funnel Calendly intégré au tunnel (livrable Crème Tech),
+5. closed en R2 par Elio ou sa setteuse,
+
+→ est **par définition** un lead *"généré par le Client via un canal objet du Contrat"*. **Le CA correspondant entre dans l'assiette**, peu importe que l'encaissement soit avant ou après le 22/11.
+
+**Renfort 1 — Article 9 (Propriété intellectuelle)** : les livrables (VSL, landing, ads, automations, tunnels) **restent propriété Crème Tech jusqu'au paiement complet**. Si Elio continue à utiliser le dispositif après le 22/11 pour closer les leads bookés avant → il exploite une PI non payée. Ça rend indéfendable l'idée qu'il pourrait récolter sans payer.
+
+**Renfort 2 — Bonne foi contractuelle (art. 1104 Code civil)** : un contrat doit être exécuté de bonne foi. **La suppression unilatérale de 23 événements d'agenda entre le 7 et le 9 nov** (documentée dans `agenda-diff-2026-11-07-to-2026-11-09.md`) — dont **6 R2 cette semaine** (sessions de closing) et **5 R2 futurs** sur des leads générés par le funnel — ressemble à une **organisation du vide** pour éviter la commission. C'est du droit vivant devant un juge : le juge **requalifie** et impute à Elio les closes qu'il aurait raisonnablement dû faire.
+
+**→ Lecture à acter par écrit avec Elio** :
+> Tout CA encaissé (y compris après le 22/11) provenant d'un lead ayant pris contact avec Veginshape via l'un des canaux objet du Contrat avant le 22/11 est commissionné à 15 %. Cela inclut, sans limitation : les R1 bookés avant le 22/11 qui closent après, les R2/R3 bookés avant le 22/11, les leads taggés "RDV booké" ou "Prospects iClosed" dans Systeme.io à la date du 22/11, et toutes les mensualités à venir sur plans échelonnés signés avant le 22/11.
+
+### Q1c — La seule limite réelle : acquisition post-22/11
+
+Un lead qui entre dans le funnel **après** le 22/11 (nouvelle ads lancée après, nouveau formulaire, etc.) : **non commissionné**. C'est le périmètre que la résiliation (art. 7) ferme pour l'avenir.
+
+**→ Il faut donc demander à Elio d'arrêter ou couper les ads Meta au 22/11 au plus tard**, sans quoi on retombe dans la zone grise (si les ads qu'il laisse tourner sont des créas Crème Tech non-payées, cf. art. 9).
 
 ### Q2 — Pourquoi refuser de produire nouvelle VSL / nouvelles ads est la seule position rationnelle
 
@@ -61,7 +88,13 @@ Lecture favorable Client : "CA encaissé" = encaissement pendant la durée du co
 >
 > **1. Préavis** — tu m'avais dit sortie effective au 22 novembre, ce qui correspond à une notification reçue vers le 22 octobre. Peux-tu me confirmer la date exacte à laquelle tu l'as envoyée ? C'est juste pour qu'on soit alignés sur le calcul des 30 jours.
 >
-> **2. Commissions sur plans échelonnés** — conformément à l'article 5.1, les mensualités encaissées sur les plans échelonnés (10x, 12x…) sont commissionnées au fil de leur encaissement. Pour éviter toute ambiguïté sur les paiements qui vont arriver après le 22 novembre sur les contrats déjà signés (Emir Belkahia, Olivier Barbosa, Nathan Bruyneel et les autres), je te propose qu'on acte ensemble que ces mensualités restent commissionnées jusqu'au bout du plan. C'est la lecture standard d'un contrat de performance, mais autant le mettre noir sur blanc.
+> **2. Périmètre des ventes commissionnables** — pour qu'on ne découvre pas un désaccord au moment de facturer, je te propose qu'on acte ensemble la lecture suivante, conforme à l'esprit et à la lettre des articles 2 et 5.1 :
+>
+> - a) Toutes les mensualités à venir sur les plans échelonnés (10x, 12x…) **signés avant le 22/11** restent commissionnées au fil des encaissements, jusqu'au bout du plan (Emir Belkahia, Olivier Barbosa, Nathan Bruyneel, et les autres).
+> - b) Tous les RDV (R1, R2, R3) **bookés avant le 22/11** via le dispositif qu'on a mis en place (VSL, ads, landing, funnel Systeme.io, automations) sont des leads générés par un canal objet du Contrat — donc **le CA qui en résulte entre dans l'assiette**, quelle que soit la date du close et de l'encaissement.
+> - c) À l'inverse, **les leads qui entreraient dans le funnel après le 22/11** (nouvelle acquisition post-préavis) sortent du périmètre.
+>
+> Je te propose un snapshot au 22/11 des RDV bookés et des plans en cours pour qu'on parte sur une base commune et chiffrée.
 >
 > **3. Accès compta** — j'avais besoin d'un accès au fichier compta (Qonto, Dougs, Stripe ou l'export de ton choix) pour continuer à émettre les factures de commission mensuelles dans les temps, en toute transparence. L'article 4 du contrat prévoit cette coopération, on reste là-dessus.
 >
@@ -97,6 +130,36 @@ Si le 22/11 passe sans réponse et sans virement de commission, envoyer une **LR
 - article 9 (propriété IP tant que non payé — **là on sort le levier**)
 - délai 15 jours pour se conformer avant action judiciaire
 - juridiction tribunaux français (art. 13)
+
+---
+
+## 💰 Ordre de grandeur de l'enjeu Q1b
+
+À la date du 09/11/2026, Systeme.io contient :
+
+| Tag | Nombre |
+|---|---:|
+| LEAD VSL (top of funnel) | 3 594 |
+| Ebook protéines végétales | 1 454 |
+| Ebook 6 étapes | 1 274 |
+| **Prospects iClosed** (pipe closing) | **1 158** |
+| **Client** (déjà converti historique) | **117** |
+| PDF mémoire de master | 62 |
+| **RDV booké** (pipe actif immédiat) | **46** |
+| Ebook plan alimentaire | 20 |
+| Ebook 30 recettes | 5 |
+
+**Enjeu financier de la position Q1b** (hypothèses prudentes : panier moyen 2 500 €, taux close RDV booké 20 %, taux close pipe iClosed 5-10 %) :
+
+| Scénario | CA attendu | **Commission 15 %** |
+|---|---:|---:|
+| Conservateur (46 RDV bookés seuls) | ~23 000 € | **~3 450 €** |
+| Central (RDV bookés + 5 % iClosed) | ~167 750 € | **~25 160 €** |
+| Optimiste (RDV bookés + 10 % iClosed) | ~312 500 € | **~46 880 €** |
+
+> **Ces chiffres sont des ordres de grandeur.** Le vrai montant dépendra des taux de close effectifs sur le pipe au 22/11 et du panier moyen appliqué. Mais même dans le scénario conservateur, l'enjeu de Q1b (3 450 €) **dépasse déjà la commission cash-in observée sur 2 mois (2 174 €)**. C'est un vrai sujet, pas un détail.
+
+**→ Produire un snapshot daté au 22/11** : export Systeme.io filtré sur tags "RDV booké", "Prospects iClosed", et sur plans en cours (Stripe/Qonto). Ce snapshot sert de **base contractuelle de la commission à venir**, à joindre à la facture mensuelle.
 
 ---
 
