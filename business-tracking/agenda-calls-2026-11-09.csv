@@ -1,0 +1,11 @@
+date,jour,heure_debut,heure_fin,type,code_setter,prospect_client,date_lead,statut,notes
+2026-11-07,samedi,14:30,15:10,R1-Consultation,V,Chau Aurelie Nguyen,,,
+2026-11-07,samedi,16:00,16:40,R1-Consultation,V,Muriel Jacquemin,,,
+2026-11-09,lundi,09:00,09:40,R1-Consultation,V,Valerie Baula,,,
+2026-11-09,lundi,14:00,14:40,R1-Consultation,V,Philippe Le Moine,,A suivre - Presence reconfirmee,
+2026-11-09,lundi,16:30,17:10,R1-Consultation,W,Benedicte Bouche,,,
+2026-11-10,mardi,13:00,13:40,R1-Consultation,S,Sebastien Wisniewski,,,
+2026-11-11,mercredi,09:00,09:40,R1-Consultation,V,Geraldine Barreau,,,
+2026-11-11,mercredi,14:00,14:40,R1-Consultation,I,Tess Kienberger,,NOUVEAU booking entre 7 et 9 nov,
+2026-11-12,jeudi,10:00,10:40,R1-Consultation,H,Florian Despont,,,
+2026-11-12,jeudi,14:00,14:40,R1-Consultation,V,Satya Perret-Gentil,,NOUVEAU booking entre 7 et 9 nov,
