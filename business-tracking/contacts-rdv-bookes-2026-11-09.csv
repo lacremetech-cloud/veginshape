@@ -1,0 +1,11 @@
+date_booking,heure_booking,nom_contact,email,tags,r1_date,r1_heure,setter,statut_cross_ref,notes
+2026-11-09,11:45,Tess Kienberger,kienbergertess@gmail.com,RDV booké,2026-11-11,14:00,I,R1 à venir,Booking apparu entre snapshots 7-9 nov
+2026-11-08,08:13,Satya Perret-Gentil,satya.perretgentil@gmail.com,RDV booké,2026-11-12,14:00,V,R1 à venir,Booking apparu entre snapshots 7-9 nov
+2026-11-06,12:19,Muriel Jacquemin,murieljcqmn@gmail.com,RDV booké,2026-11-07,16:00,V,R1 passé,
+2026-11-06,08:46,Châu Aurélie Nguyen,lalynguyen@hotmail.com,RDV booké + Ebook 6 étapes,2026-11-07,14:30,V,R1 passé,A téléchargé l'ebook 6 étapes
+2026-11-05,07:30,Sébastien Wisniewski,sebastien.wisniewski@icloud.com,RDV booké,2026-11-10,13:00,S,R1 à venir,
+2026-11-04,19:44,Emir Belkahia,emir.belkahia@gmail.com,RDV booké + Ebook 6 étapes + Client,2026-11-05,13:00,I,CLIENT (converti),F564 06 nov 2026 - 300 EUR - VEGINSHAPE 12 mois 3600 EUR en 12x
+2026-11-04,14:45,Thomas Defago,th.defago@gmai.com,RDV booké,2026-11-05,16:00,V,R1 passé,R2 supprimé par Elio entre 7-9 nov (était prévu 10 nov 16h)
+2026-11-03,05:43,Valérie Baula,baula.valerie@gmail.com,RDV booké,2026-11-09,09:00,V,R1 du jour,
+2026-11-02,16:22,Déborah Corvasce,deborah.corvasce@edu.jura.ch,RDV booké,2026-11-05,14:00,I,R1 passé,R2 supprimé par Elio entre 7-9 nov (était prévu 10 nov 10h)
+2026-11-02,00:09,Julie Marron,marronjulie11@yahoo.fr,RDV booké,2026-11-02,13:30,GO,R1 passé,Booking le même jour que le call
