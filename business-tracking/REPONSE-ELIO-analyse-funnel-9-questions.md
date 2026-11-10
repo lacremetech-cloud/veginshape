@@ -1,3 +1,5 @@
+> ⚠️ **Document superseded par `DOSSIER-COMPLET-2026-11-10.md`** — lecture mise à jour notamment pour PACK 4 (objectif = trafic/awareness Instagram, pas lead-gen : la coupure recommandée initialement était fondée sur une erreur de lecture d'objectif).
+
 # Analyse complète funnel VEGINSHAPE — réponses aux 9 questions
 
 > **Document préparé pour le call de la semaine 10/11/2026**

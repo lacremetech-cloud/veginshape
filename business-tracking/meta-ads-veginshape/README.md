@@ -1,3 +1,5 @@
+> ⚠️ **Document superseded par `DOSSIER-COMPLET-2026-11-10.md`** — lecture mise à jour notamment pour PACK 4 (objectif = trafic/awareness Instagram, pas lead-gen : la coupure recommandée initialement était fondée sur une erreur de lecture d'objectif).
+
 # Meta Ads — compte VEG IN SHAPE (act_444571528114901)
 
 > **Snapshot : 2026-11-09 / 2026-11-10**
