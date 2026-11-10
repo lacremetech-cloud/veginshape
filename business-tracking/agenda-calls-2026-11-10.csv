@@ -1,0 +1,34 @@
+date,jour,heure_debut,heure_fin,type,code_setter,prospect_client,date_lead,statut,notes
+2026-11-09,lundi,09:00,09:40,R1-Consultation,V,Valerie Baula,,,
+2026-11-09,lundi,14:00,14:40,R1-Consultation,V,Philippe Le Moine,,Presence reconfirmee,
+2026-11-10,mardi,10:00,11:00,R2,,Deborah Corvasce,2026-11-05,,
+2026-11-10,mardi,13:00,13:40,R1-Consultation,S,Sebastien Wisniewski,,Presence reconfirmee - En cours,
+2026-11-10,mardi,14:00,15:00,R2,,Emilie Mesnier,2026-11-06,A suivre,
+2026-11-10,mardi,16:00,17:00,R2,,Thomas Defago,2026-11-05,,
+2026-11-10,mardi,17:00,17:40,R1-Consultation,V,Veronique Falguieres,,,Nouveau booking depuis snapshot 09/11
+2026-11-11,mercredi,09:00,09:40,R1-Consultation,V,Geraldine Barreau,,,
+2026-11-11,mercredi,13:00,14:00,R2,,Noyra Lages,2026-11-03,,
+2026-11-11,mercredi,14:00,14:40,R1-Consultation,I,Tess Kienberger,,,
+2026-11-12,jeudi,10:00,10:40,R1-Consultation,H,Florian Despont,,,
+2026-11-12,jeudi,14:00,14:40,R1-Consultation,V,Satya Perret-Gentil,,,
+2026-11-13,vendredi,10:00,11:00,R2,,Ambre Ravenaud,2026-11-03,,Decalee depuis lun 09/11 10h
+2026-11-15,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2026-11-16,lundi,14:00,15:00,R2,,Aurelie Nguyen,2026-11-07,,
+2026-11-19,jeudi,10:00,11:00,R2,,Audrey Galvan,2026-09-10,,
+2026-11-22,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,Date fin preavis Elio
+2026-11-24,mardi,12:30,13:30,R2,,Sebastien Wisniewski,2026-11-10,,R2 lead issu du R1 du 10/11
+2026-11-29,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2026-12-06,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2026-12-13,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2026-12-15,mardi,09:00,10:00,Relance,,Alec Serbah,2026-07-07,,
+2026-12-20,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2026-12-27,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2027-01-03,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2027-01-04,lundi,16:00,17:00,R2,,Sylvie Hirel,2026-10-28,,
+2027-01-05,mardi,10:00,11:00,R2,,Nena Lardy,2026-09-10,,
+2027-01-05,mardi,19:00,20:00,R3,,Astoria Christiane,,,
+2027-01-10,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,
+2027-01-17,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,Programme etendu
+2027-01-24,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,Programme etendu
+2027-01-31,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,Programme etendu
+2027-02-07,dimanche,11:00,12:00,Call-Groupe,,Groupe VEGINSHAPE,,,Programme etendu

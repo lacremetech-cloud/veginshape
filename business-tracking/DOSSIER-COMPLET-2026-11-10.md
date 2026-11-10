@@ -40,8 +40,9 @@
 | 01/11/2026 | Rayyan répond : accord call + position devis forfaitaire pour nouveaux assets + demande accès compta |
 | 05-09/11/2026 | Aucune réponse Slack d'Elio (8 jours de silence) |
 | 07/11/2026 | **1er snapshot agenda** (55 événements business visibles) |
-| 09/11/2026 | **2e snapshot agenda** — **23 événements ont disparu en 48 h** (6 R2 cette semaine + 17 futurs) |
+| 09/11/2026 | 2e snapshot agenda — initialement lu comme *"23 événements supprimés"*, **lecture retractée le 10/11** : le snapshot était en fait tronqué par la vue consultée (cf. `CORRECTION-snapshot-9nov-tronque.md`) |
 | 09-10/11/2026 | Récupération complète : Meta Ads, Systeme.io (12 594), AC (8 841), Calendly (annulations), Wistia, facturation |
+| 10/11/2026 | **3e snapshot agenda vérifié** : tous les R2 et calls groupe sont bien là, parfois décalés ; nouveaux événements (R1 Véronique Falguieres, R2 Sébastien Wisniewski) |
 | **22/11/2026** | **Fin des 30 jours de préavis** — moment de gel du périmètre commission |
 
 ---
@@ -116,7 +117,7 @@ Nombre de plans échelonnés en cours (au 07/11 d'après facturation) : au moins
 **Fondements** :
 - Art. 5.1 "CA généré par le Client, **tous canaux confondus**" + art. 2 qui définit explicitement les canaux (ads, VSL, funnels, automations, CRM)
 - Art. 9 (propriété Crème Tech des livrables tant que non payés)
-- Art. 1104 Code civil (bonne foi) — appuyé par la **suppression unilatérale de 23 événements d'agenda** (6 R2 cette semaine + 4 R2 futurs + 1 R3 + 1 relance + 10 calls groupe + 1 call groupe hebdo passé) entre le 7 et le 9 nov, tous liés à des leads apportés par le dispositif Crème Tech
+- Art. 4 (Client doit coopérer et fournir le reporting) — déjà invocable si Elio continue à ignorer la demande d'accès compta
 
 **Enjeu financier** : pipe de 46 "RDV booké" + 1 158 "Prospects iClosed" côté Systeme.io au 09/11, panier moyen ~3 000 CHF, taux close 15-25 %. Fourchette : **3 450 € (conservateur) à 46 880 € (optimiste)** de commission potentielle sur Q1b seul.
 
@@ -184,39 +185,42 @@ Snapshots horodatés et commités sur `claude/quirky-feynman-dgGs0` (GitHub lacr
 | `2564e2a7-...` | (W) |
 | Et autres codes relevés : GO, H, S | — |
 
-### 5.3. Snapshot comparatif 07/11 → 09/11 — 🚨 **la vraie preuve**
+### 5.3. Snapshot 07/11 vs 09/11 vs 10/11 — rectification
 
-**23 événements business évacués en 48 h** entre les deux snapshots :
+**⚠️ Correction importante** — cf. `CORRECTION-snapshot-9nov-tronque.md`.
 
-**Cette semaine — 6 R2 disparus** (les sessions de closing !) :
-- lun 9 nov 10:00 — **R2 Ambre Ravenaud** (lead 03/11)
-- lun 9 nov 11:00 — **R2 Anne Fouqué** (lead 04/11)
-- mar 10 nov 10:00 — **R2 Déborah Corvasce** (lead 05/11)
-- mar 10 nov 14:00 — **R2 Emilie Mesnier** (lead 06/11)
-- mar 10 nov 16:00 — **R2 Thomas Défago** (lead 05/11)
-- mer 11 nov 13:00 — **R2 Noyra Lages** (lead 03/11)
+Le snapshot du 09/11 affichait *"Plus aucune réunion prévue"* après le 12 nov et semblait indiquer une purge de 23 événements business. Vérification faite via un **3e snapshot le 10/11** (`agenda-calls-2026-11-10.csv`) : **tous les événements sont toujours là**. La vue Calendly consultée le 09/11 était simplement tronquée (filtre d'affichage ou vue restreinte).
 
-**Horizon moyen/long (15 nov → 10 janv) — 5 R2 + 1 R3 + 1 relance + 10 calls groupe** :
-- R2 Aurélie Nguyen (16/11), Audrey Galvan (19/11), Sylvie Hirel (04/01), Néna Lardy (05/01)
-- R3 Astoria Christiane (05/01)
-- Relance Alec Serbah (15/12)
-- Call groupe VEGINSHAPE tous les dimanches : 15, 22, 29/11 + 6, 13, 20, 27/12 + 3, 10/01
+**État réel vérifié au 10/11** :
 
-L'écran Calendly d'Elio affiche désormais **"Plus aucune réunion prévue"** après le 12 novembre.
+| Événement | Statut |
+|---|---|
+| R2 Déborah Corvasce (mar 10/11 10:00) | ✅ Date originale |
+| R2 Emilie Mesnier (mar 10/11 14:00) — "À suivre" | ✅ Date originale |
+| R2 Thomas Défago (mar 10/11 16:00) | ✅ Date originale |
+| R2 Noyra Lages (mer 11/11 13:00) | ✅ Date originale |
+| R2 Ambre Ravenaud | 🔄 Décalée lun 09/11 10:00 → ven 13/11 10:00 |
+| R2 Anne Fouqué | ❓ Non visible au 10/11 — à clarifier |
+| R2 Aurélie Nguyen (16/11), Audrey Galvan (19/11), Sylvie Hirel (04/01), Néna Lardy (05/01) | ✅ Tous présents |
+| R3 Astoria Christiane (05/01) | ✅ Présent |
+| Relance Alec Serbah (15/12) | ✅ Présent |
+| Calls groupe dim 15/11 → 10/01 | ✅ Tous présents |
 
-### 5.4. Point important sur la nature des événements supprimés
+**Nouveaux événements apparus** :
+- R1 Véronique Falguieres (V) — mar 10/11 17:00
+- R2 Sébastien Wisniewski — mar 24/11 12:30 (suite au R1 du 10/11)
+- Calls groupe étendus jusqu'au 07/02/2027
 
-Ces 23 événements **n'étaient PAS des bookings Calendly** mais des entrées **Google Calendar** créées manuellement par Elio (ou son équipe) suite à :
-- des leads post-R1 (planification manuelle du R2 de closing)
-- la programmation récurrente des calls groupe
-- les relances planifiées à moyen terme
+### 5.4. Ce que cette rectification change pour le dossier
 
-**Conséquence** : l'API Calendly ne retrace pas leur suppression (on ne les y a jamais vus — ils étaient dans Google Calendar directement, visibles sous forme de "logo-icon" dans le screenshot d'agenda initial). La **preuve** de leur existence tient à notre **snapshot du 07/11** qui les listait explicitement (`agenda-calls-2026-11-07.csv`), horodaté et commité sur GitHub avant la suppression.
+**Ce qui est retiré** :
+- ❌ L'argument "23 événements supprimés pendant le préavis" → **supprimé**
+- ❌ L'argument de mauvaise foi contractuelle (art. 1104 Code civil) fondé sur cette suppression → **retiré** (l'article reste pertinent sur d'autres points, mais pas sur celui-ci)
 
-**Lecture pour le dossier** :
-- Ces 23 événements étaient des **engagements de calendrier internes à l'équipe Elio** — tous liés à des leads **déjà apportés par le dispositif Crème Tech** (R2 = follow-up d'un R1, call groupe = session d'activation sur base clients).
-- Leur **disparition unilatérale pendant le préavis** prive la structure de CA potentiel sur ces leads, et prive Crème Tech d'une partie de la commission Q1b correspondante.
-- Si Elio refuse de reconnaître la commission sur ces 6 R2 au motif qu'ils ne sont "plus programmés", on oppose : *"Ces RDV étaient planifiés le 07/11 et visibles dans ton agenda à cette date (snapshot horodaté). Leur annulation unilatérale pendant le préavis ne peut pas effacer la génération originelle du lead par le dispositif."* Fondement : **art. 1104 Code civil** (bonne foi contractuelle) — un contrat ne peut être vidé de sa substance par un acte unilatéral du Client.
+**Ce qui est en réalité une bonne nouvelle business** :
+- Les 6 R2 de cette semaine vont bien **se tenir** → chaque close qui en découle génère du CA commissionnable à 15 % (Q1a si plan signé avant 22/11, sinon Q1b)
+- Les calls groupe continuent, le funnel tourne, l'inbound continue (R1 Véronique arrivé depuis 09/11)
+- **Pas de rupture brutale documentée** côté Elio — le business est intact
 
 ### 5.5. Les 19 annulations tracées par l'API Calendly
 

@@ -40,9 +40,15 @@ Les 6 annulations réalisées par Elio lui-même avec raison "Test" (×5) et "Do
 | 28/10 09:00 UTC | 26/10 12:53 UTC | Elio (host) | "Test" | Test légitime |
 | 28/10 12:30 UTC | 26/10 12:53 UTC | Elio (host) | "Test" | Test légitime |
 
-### La vraie preuve est ailleurs : les R2 Google Calendar disparus
+### ⚠️ Rectification 10/11 — pas de purge non plus côté Google Calendar
 
-La vraie preuve de l'organisation du vide ne vient PAS de Calendly mais du **diff des deux snapshots d'agenda** (07/11 vs 09/11), documenté dans `agenda-diff-2026-11-07-to-2026-11-09.md`. Ce diff montre que **23 événements** (dont 6 R2 cette semaine, 4 R2 futurs, 1 R3, 1 relance, 10+1 calls groupe) ont été évacués de l'agenda Google Calendar d'Elio en 48 h. Ces événements étaient planifiés manuellement dans Google Calendar (pas via Calendly) — c'est pourquoi l'API Calendly ne les trace pas. Ils sont documentés par le snapshot CSV du 07/11 commité sur GitHub **avant** la suppression.
+Une analyse antérieure concluait qu'au-delà des 6 annulations "Test" Calendly, **23 événements Google Calendar** (R2, calls groupe) avaient été évacués de l'agenda d'Elio entre le 07/11 et le 09/11, documenté dans `agenda-diff-2026-11-07-to-2026-11-09.md`.
+
+Un snapshot additionnel le 10/11 (`agenda-calls-2026-11-10.csv`) a montré que **tous ces événements sont en réalité toujours dans l'agenda**, parfois à leur date originale (6 R2 sur 7), parfois décalés (R2 Ambre Ravenaud décalée de lun 09/11 → ven 13/11). Le snapshot du 09/11 était **tronqué par la vue consultée** — probablement un filtre d'affichage qui masquait les événements Google Calendar natifs.
+
+**Cette conclusion est donc retirée du dossier.** Voir `CORRECTION-snapshot-9nov-tronque.md` pour le détail.
+
+L'argument de bonne foi contractuelle (art. 1104 Code civil) reste pertinent sur d'autres points (ex. refus d'accès compta), mais pas sur celui-ci.
 
 ### Autres annulations : churn invitee normal (13 événements)
 

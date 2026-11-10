@@ -49,7 +49,7 @@
   3. Elio attend une concession côté Rayyan (produire gratis la nouvelle VSL / nouvelles ads).
   4. Elio charge quelqu'un d'autre pendant le préavis et prépare la transition.
 
-- **Signal fort côté terrain** : entre le 07/11 et le 09/11, Elio a **supprimé 23 événements** de son agenda Calendly (6 R2 cette semaine + 17 futurs incluant 10 calls groupe) — cf. `agenda-diff-2026-11-07-to-2026-11-09.md`. C'est un comportement de **sortie planifiée**, pas d'un simple retard de réponse.
+- **Signal côté terrain — initialement interprété comme sortie planifiée, rectifié le 10/11** : le snapshot agenda du 09/11 semblait indiquer la suppression de 23 événements (6 R2 cette semaine + 17 futurs). Vérification faite le 10/11 (`agenda-calls-2026-11-10.csv`), tous ces événements sont toujours dans l'agenda — le snapshot était simplement tronqué par la vue consultée. Donc pas de signal de rupture sur ce point. Le silence Slack d'Elio depuis le 01/11 reste un fait brut, à adresser par la relance Slack (brouillon dans `STRATEGIE-NEGOCIATION-sortie-contrat.md`). Cf. `CORRECTION-snapshot-9nov-tronque.md`.
 
 ---
 
