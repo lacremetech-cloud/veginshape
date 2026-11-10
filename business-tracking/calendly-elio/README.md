@@ -27,23 +27,22 @@
 
 **19 événements annulés entre le 22/10 et le 09/11/2026**, avec timestamp exact + auteur + raison.
 
-### 🚨 Finding critique : 5 annulations "Test" par Elio lui-même juste après la notification de préavis
+### Note importante — rectification
 
-| Date start | Date cancel | Canceled by | Raison |
-|---|---|---|---|
-| 22/10 11:40 UTC | 22/10 06:03 UTC | **Elio (host)** | "Doublon" |
-| 24/10 14:00 UTC | 24/10 05:48 UTC | **Elio (host)** | "Test" |
-| 24/10 15:00 UTC | 24/10 05:48 UTC | **Elio (host)** | "Test" |
-| 28/10 08:00 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
-| 28/10 09:00 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
-| 28/10 12:30 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
+Les 6 annulations réalisées par Elio lui-même avec raison "Test" (×5) et "Doublon" (×1) sont des **nettoyages légitimes de faux RDV** (Rayyan confirmé 10/11), pas une purge anticipée. **Elles ne sont pas à retenir comme preuve** d'une organisation du vide pendant le préavis.
 
-**Interprétation** : Entre le 22/10 et le 26/10 (période du début du préavis supposé), Elio a **supprimé lui-même 6 RDV** en les qualifiant de "Doublon" ou "Test". Ces raisons sont formellement douteuses :
+| Date start | Date cancel | Canceled by | Raison | Lecture |
+|---|---|---|---|---|
+| 22/10 11:40 UTC | 22/10 06:03 UTC | Elio (host) | "Doublon" | Test légitime |
+| 24/10 14:00 UTC | 24/10 05:48 UTC | Elio (host) | "Test" | Test légitime |
+| 24/10 15:00 UTC | 24/10 05:48 UTC | Elio (host) | "Test" | Test légitime |
+| 28/10 08:00 UTC | 26/10 12:53 UTC | Elio (host) | "Test" | Test légitime |
+| 28/10 09:00 UTC | 26/10 12:53 UTC | Elio (host) | "Test" | Test légitime |
+| 28/10 12:30 UTC | 26/10 12:53 UTC | Elio (host) | "Test" | Test légitime |
 
-- "Test" répété 5 fois sur 4 dates différentes ne ressemble pas à un vrai nettoyage de tests mais à une **purge anticipée** de bookings qu'Elio ne voulait pas honorer pendant le préavis.
-- Le pattern coïncide exactement avec la fenêtre de préparation du préavis (29/10 étant la date du 1er message Slack d'Elio sur son plan de sortie).
+### La vraie preuve est ailleurs : les R2 Google Calendar disparus
 
-**→ Ces 6 cancellations renforcent l'argument de mauvaise foi contractuelle (art. 1104 Code civil) que nous développons dans `STRATEGIE-NEGOCIATION-sortie-contrat.md`.**
+La vraie preuve de l'organisation du vide ne vient PAS de Calendly mais du **diff des deux snapshots d'agenda** (07/11 vs 09/11), documenté dans `agenda-diff-2026-11-07-to-2026-11-09.md`. Ce diff montre que **23 événements** (dont 6 R2 cette semaine, 4 R2 futurs, 1 R3, 1 relance, 10+1 calls groupe) ont été évacués de l'agenda Google Calendar d'Elio en 48 h. Ces événements étaient planifiés manuellement dans Google Calendar (pas via Calendly) — c'est pourquoi l'API Calendly ne les trace pas. Ils sont documentés par le snapshot CSV du 07/11 commité sur GitHub **avant** la suppression.
 
 ### Autres annulations : churn invitee normal (13 événements)
 

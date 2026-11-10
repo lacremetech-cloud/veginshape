@@ -35,7 +35,7 @@
 | 12/08/2026 | Démarrage du compte Meta Ads actuel (lifetime API ≈ 100 k CHF de spend depuis ce point) |
 | 19/05/2026 | Lancement de l'A/B test opt-in A vs B sur Systeme.io |
 | 22/10/2026 | Date probable de notification du préavis d'Elio (à confirmer par écrit) |
-| 22/10 → 28/10 | **Elio annule lui-même 6 RDV Calendly** avec raisons "Test" (×5) et "Doublon" (×1) |
+| 22/10 → 28/10 | Elio nettoie 6 faux RDV Calendly (raisons "Test" / "Doublon") — annulations légitimes de tests, **à ne pas retenir comme preuve** |
 | 29/10/2026 | Elio envoie en Slack sa demande d'analyse en 9 questions + mention "comm setting de ta setteuse" |
 | 01/11/2026 | Rayyan répond : accord call + position devis forfaitaire pour nouveaux assets + demande accès compta |
 | 05-09/11/2026 | Aucune réponse Slack d'Elio (8 jours de silence) |
@@ -116,7 +116,7 @@ Nombre de plans échelonnés en cours (au 07/11 d'après facturation) : au moins
 **Fondements** :
 - Art. 5.1 "CA généré par le Client, **tous canaux confondus**" + art. 2 qui définit explicitement les canaux (ads, VSL, funnels, automations, CRM)
 - Art. 9 (propriété Crème Tech des livrables tant que non payés)
-- Art. 1104 Code civil (bonne foi) — appuyé par la **suppression unilatérale de 23 événements d'agenda** entre le 7 et le 9 nov (preuve de mauvaise foi documentée)
+- Art. 1104 Code civil (bonne foi) — appuyé par la **suppression unilatérale de 23 événements d'agenda** (6 R2 cette semaine + 4 R2 futurs + 1 R3 + 1 relance + 10 calls groupe + 1 call groupe hebdo passé) entre le 7 et le 9 nov, tous liés à des leads apportés par le dispositif Crème Tech
 
 **Enjeu financier** : pipe de 46 "RDV booké" + 1 158 "Prospects iClosed" côté Systeme.io au 09/11, panier moyen ~3 000 CHF, taux close 15-25 %. Fourchette : **3 450 € (conservateur) à 46 880 € (optimiste)** de commission potentielle sur Q1b seul.
 
@@ -184,29 +184,48 @@ Snapshots horodatés et commités sur `claude/quirky-feynman-dgGs0` (GitHub lacr
 | `2564e2a7-...` | (W) |
 | Et autres codes relevés : GO, H, S | — |
 
-### 5.3. Snapshot comparatif 07/11 → 09/11
+### 5.3. Snapshot comparatif 07/11 → 09/11 — 🚨 **la vraie preuve**
 
-**23 événements business évacués en 48 h**, dont :
-- **6 R2 cette semaine** : Ambre Ravenaud, Anne Fouqué, Déborah Corvasce, Emilie Mesnier, Thomas Défago, Noyra Lages
-- **5 R2 futurs** + 1 R3 + 1 relance (Astoria Christiane, Aurélie Nguyen, Audrey Galvan, Sylvie Hirel, Néna Lardy, Alec Serbah)
-- **10 calls groupe VEGINSHAPE** (tous les dimanches 15 nov → 10 janv)
+**23 événements business évacués en 48 h** entre les deux snapshots :
+
+**Cette semaine — 6 R2 disparus** (les sessions de closing !) :
+- lun 9 nov 10:00 — **R2 Ambre Ravenaud** (lead 03/11)
+- lun 9 nov 11:00 — **R2 Anne Fouqué** (lead 04/11)
+- mar 10 nov 10:00 — **R2 Déborah Corvasce** (lead 05/11)
+- mar 10 nov 14:00 — **R2 Emilie Mesnier** (lead 06/11)
+- mar 10 nov 16:00 — **R2 Thomas Défago** (lead 05/11)
+- mer 11 nov 13:00 — **R2 Noyra Lages** (lead 03/11)
+
+**Horizon moyen/long (15 nov → 10 janv) — 5 R2 + 1 R3 + 1 relance + 10 calls groupe** :
+- R2 Aurélie Nguyen (16/11), Audrey Galvan (19/11), Sylvie Hirel (04/01), Néna Lardy (05/01)
+- R3 Astoria Christiane (05/01)
+- Relance Alec Serbah (15/12)
+- Call groupe VEGINSHAPE tous les dimanches : 15, 22, 29/11 + 6, 13, 20, 27/12 + 3, 10/01
 
 L'écran Calendly d'Elio affiche désormais **"Plus aucune réunion prévue"** après le 12 novembre.
 
-### 5.4. 🚨 Finding forensique — 6 annulations suspectes par Elio lui-même
+### 5.4. Point important sur la nature des événements supprimés
 
-Export API Calendly, période 22/10 → 09/11 :
+Ces 23 événements **n'étaient PAS des bookings Calendly** mais des entrées **Google Calendar** créées manuellement par Elio (ou son équipe) suite à :
+- des leads post-R1 (planification manuelle du R2 de closing)
+- la programmation récurrente des calls groupe
+- les relances planifiées à moyen terme
 
-| Date start | Date cancel | Canceled by | Raison |
-|---|---|---|---|
-| 22/10 11:40 UTC | 22/10 06:03 UTC | **Elio (host)** | "Doublon" |
-| 24/10 14:00 UTC | 24/10 05:48 UTC | **Elio (host)** | "Test" |
-| 24/10 15:00 UTC | 24/10 05:48 UTC | **Elio (host)** | "Test" |
-| 28/10 08:00 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
-| 28/10 09:00 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
-| 28/10 12:30 UTC | 26/10 12:53 UTC | **Elio (host)** | "Test" |
+**Conséquence** : l'API Calendly ne retrace pas leur suppression (on ne les y a jamais vus — ils étaient dans Google Calendar directement, visibles sous forme de "logo-icon" dans le screenshot d'agenda initial). La **preuve** de leur existence tient à notre **snapshot du 07/11** qui les listait explicitement (`agenda-calls-2026-11-07.csv`), horodaté et commité sur GitHub avant la suppression.
 
-Cinq fois "Test" sur 4 dates différentes, exactement pendant la fenêtre de préparation du préavis supposé. **Lecture juridique** : purge anticipée de bookings non voulus pendant le préavis → mauvaise foi contractuelle (art. 1104 Code civil).
+**Lecture pour le dossier** :
+- Ces 23 événements étaient des **engagements de calendrier internes à l'équipe Elio** — tous liés à des leads **déjà apportés par le dispositif Crème Tech** (R2 = follow-up d'un R1, call groupe = session d'activation sur base clients).
+- Leur **disparition unilatérale pendant le préavis** prive la structure de CA potentiel sur ces leads, et prive Crème Tech d'une partie de la commission Q1b correspondante.
+- Si Elio refuse de reconnaître la commission sur ces 6 R2 au motif qu'ils ne sont "plus programmés", on oppose : *"Ces RDV étaient planifiés le 07/11 et visibles dans ton agenda à cette date (snapshot horodaté). Leur annulation unilatérale pendant le préavis ne peut pas effacer la génération originelle du lead par le dispositif."* Fondement : **art. 1104 Code civil** (bonne foi contractuelle) — un contrat ne peut être vidé de sa substance par un acte unilatéral du Client.
+
+### 5.5. Les 19 annulations tracées par l'API Calendly
+
+En parallèle, l'API Calendly a traçé 19 annulations entre le 22/10 et le 09/11 :
+
+- **6 annulations par Elio lui-même avec raison "Test" (×5) ou "Doublon" (×1)** — ce sont des **faux RDV, nettoyage légitime de tests**, à **NE PAS retenir comme preuve** de mauvaise foi.
+- **13 annulations par les prospects eux-mêmes** (canceler_type = invitee) → churn normal. Deux ont un signal produit à retenir côté landing / offre :
+  - *Géraldine Rappe* : *"désagréable de ne pas avoir de fourchette de tarif avant la consultation"* → objection pricing
+  - *Ludivine Korner* : *"Je recherche uniquement un accompagnement nutrition"* → segmentation offre
 
 ### 5.5. Autres annulations (13 invitees)
 
